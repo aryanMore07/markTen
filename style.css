@@ -10,6 +10,12 @@ body {
   flex-direction: column;
 }
 
+.outer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
 label {
   font: bold;
   font-size: 25px;
