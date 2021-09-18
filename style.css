@@ -1,0 +1,62 @@
+body {
+  background: url("back.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font: bold;
+  font-size: 25px;
+}
+
+p {
+  font-size: 25px;
+  font: bold;
+}
+
+input {
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 0.8rem;
+  margin: auto;
+  width: 15%;
+}
+
+button {
+  border-radius: 15px;
+  padding: 15px 0px 15px 0px;
+  margin: 20px 5px 5px 45rem;
+  width: 5%;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  margin: 1rem;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+  border-collapse: collapse;
+  word-break: break-word;
+}
+
+td,
+th {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.tab {
+  margin: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(240, 255, 255, 0.801);
+}
