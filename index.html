@@ -10,20 +10,24 @@
 
   <body>
     <div class="container">
-      <h1>Cash Register Manager</h1>
-      <label
-        >Enter the bill amount and cash given by the customer and know minimum
+      <label>
+        <h1>Cash Register Manager</h1>
+        Enter the bill amount and cash given by the customer and know minimum
         number of notes to return.
       </label>
 
-      <p for="input-BillAmt">Bill Amount:</p>
-
-      <input id="input-BillAmt" type="text" />
+      <div class="bill-div">
+        <p for="input-BillAmt">Bill Amount:</p>
+        
+        <input id="input-BillAmt" type="text" />
+      </div>
       
-      <p for="input-cashGiven">Cash Given:</p>
-
-      <input id="input-cashGiven" type="text" />
-
+      <div class="cash-div">
+        <p for="input-cashGiven">Cash Given:</p>
+        
+        <input id="input-cashGiven" type="text" />
+        
+      </div>
       <button id="check-btn">Check</button>
 
       <p class="errorMsg"></p>
