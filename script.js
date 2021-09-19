@@ -3,6 +3,12 @@ const cashAmt = document.querySelector("#input-cashGiven");
 const checkBtn = document.querySelector("#check-btn");
 const errorMsg = document.querySelector(".errorMsg");
 const noOfNotes = document.querySelectorAll(".no-Of-Notes");
+document.getElementById("cash_div").style.display = "none";
+
+function btn_hideOnclick() {
+  document.getElementById("cash_div").style.display = "block";
+  document.getElementById("next_btn").style.display = "none";
+}
 
 const notes = [2000, 500, 100, 20, 10, 5, 1];
 
